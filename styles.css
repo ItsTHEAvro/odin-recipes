@@ -40,6 +40,7 @@ img
     width: 150px; 
     margin: 0.2rem; 
     border-radius: 7%;
+    box-shadow: 0px 0px 5px #7A7A7A;
 }
 
 #main_recipe
@@ -47,6 +48,10 @@ img
     padding: 1.5rem;
 }
 
+#main_recipe
+{
+    text-align: justify;
+}
 
 #recipe_header
 {
@@ -56,7 +61,8 @@ img
 #recipe_header img
 {
     height: auto;
-    width: 30rem;
+    width: 45%;
+    box-shadow: 0px 0px 10px #7A7A7A;
 }
 
 #recipe_title
